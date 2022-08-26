@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #111111;
+}
+header{
+    padding-top: 2rem;
+    padding-left: 4rem;
+    padding-right: 6rem;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    row-gap: 1rem;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    
+    gap: 2rem 1rem;
+    color: white;
+    
+
+}
+.list-item{
+    list-style: none;
+    font-size: 0.75rem;   
+}
+img[alt="header-img"]{
+    width: 40vw;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    row-gap: 2rem;
+}
+.header-text-content h3{
+    font-size: 1.5rem;
+    color: #FF3343;
+}
+.header-text-content h1{
+    font-size: 4rem;
+    color: white;
+}
+.header-text-content p{
+    font-size: 1.5rem;
+    color: #939393;
+}
+.header-btn{
+    margin-top: 2rem;
+}
+.about-me-btn{
+    padding: 1rem 2.5rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #FF3343;
+}
+main{
+    padding: 2rem 6rem 3rem 6rem;
+}
+.feature-cards{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-flow: row wrap;
+}
+.feature-card{
+    padding-top: 2rem;
+    padding-left: 1.5rem;   
+    height: 20rem;
+    width: 17rem;
+    background-color: #1E1E1E;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 1rem;
+    
+   
+}
+.feature-card p{
+    color: #d8d5d5;
+    font-size: 1.5rem;
+}
+.feature-card h2{
+    color: #FF3343;
+    font-size: 1rem;
+}
+img[alt= "feature-image"]{
+    width: 50px;
+    
+}
+.feature-card.active{
+    background-color: #FF3343;
+}
+.feature-card.active h2{
+    color: #d8d5d5;
+}
+.experience{
+    padding-left: 6rem;
+    padding-right: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 5rem;
+    flex-flow: row wrap;
+}
+.year-experience{
+    text-align: center;
+}
+.year-experience h1{
+    font-size: 6rem;
+    color: #FF3343;
+}
+.year-experience h2{
+    font-size: 2rem;
+    color: white;
+}
+.year-cards{
+    display: flex;
+    gap: 1rem;
+    flex-flow: row wrap;
+}
+.year-card-row{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;   
+    
+}
+.year-card{
+    height: 8rem;
+    width: 17rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E1E1E;
+}
+.year-card h2{
+    color: #FF3343;
+    font-size: 3rem;
+}
+.year-card h3{
+    color: #d8d5d5;
+}
+.feature-projects{
+    margin-top: 8rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    row-gap: 2.5rem;
+}
+.feature-project-text h1{
+    
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+.feature-project-text h3{
+    
+    color: #d8d5d5;
+    font-size: 1rem;
+}
+.view-all-btn{
+    
+    padding: 0.75rem 2rem;
+    background-color: #FF3343;
+    color: white;
+    border: none;
+}
+img[alt = "card-img"]{
+    width: 370px;
+    height: 220px;
+}
+.project-card-section{
+    margin-top: 5rem; 
+    padding-left: 6rem;
+    padding-right: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.project-card-row{
+    display: flex;
+    gap: 2rem;
+    flex-flow: row wrap;
+}
+.card{
+    padding: 4rem 2rem;
+    background-color: #1E1E1E;
+}
+.project-card h1{
+    margin-top: 0.75rem;
+    font-size: 2rem;
+    color: white;
+}
+.project-card h3{
+    margin-top: 0.75rem;
+    font-size: 1rem;
+    color: #FF3343;
+}
+
+.contact{
+    margin-top: 4rem;
+    padding-top: 4rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 5rem;  
+    background-color: #1E1E1E;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    row-gap: 2rem;
+}
+.col h1{
+    font-size: 2.75rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+.col h3{
+    font-size: 1rem;
+    color: #d8d5d5;
+}
+.contact-btn{
+    padding: 0.75rem 1.5rem;
+    background-color: #FF3343;
+    color: white;
+    border: none;
+}
+.footer-list{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.footer-list-item{
+    list-style: none;
+    color: white;
+    font-size: 0.75rem;
+}
+.footer-content{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 12rem;
+    padding-right: 16rem;
+    background-color: #1E1E1E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    row-gap: 2rem;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    color: white;
+}
+
+
+
