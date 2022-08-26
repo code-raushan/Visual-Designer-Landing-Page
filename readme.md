@@ -6,6 +6,6 @@ And yes, it is completely responsive💻👍
 
 Below is the link and preview of the webpage I made👇👇👇
 <br>
-[visual-designer-agency](https://product-design.netlify.app/)
+[visual-designer-agency](https://visual-designer-page.netlify.app/)
 
 ![visual designer](visual-designer.png)
